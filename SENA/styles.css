@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img
+{
+    width: 50px;
+    height: 50px;
+}
+
+/*Estilos del header*/
+.content
+{
+    width: 900px;
+    height: 100vh;
+   
+    padding: 10px 20px;
+    
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-title
+{
+    color: #ff5131;
+    letter-spacing: 5px;
+    font-weight: 20px;
+}
+
+.header-sub_title
+{
+   color: #000051;
+   letter-spacing: 4px;
+}
+
+.header-p
+{
+    width: 500px;
+    margin-top: 20px;
+    border-bottom: 1px solid black
+}
+.text
+{
+    width:100vh;
+    
+    
+    
+}
+
+.logo
+{
+    display: flex;
+    justify-items: start;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.link
+{
+    display: flex;
+    width: 100vh;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.sena-link
+{
+    padding-right: 10px;
+    text-decoration: none;
+    color:white ;
+    background-color: #000051;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5 5;
+
+    
+}
+
+.sena-text
+{
+    color: #ff5131;
+    font-size: 20px;
+    padding: 5 5 ;
+}
+
+/*Estilos Main*/
+
+.main
+{
+    margin-top: 20px;
+    width: 100vh;
+    border: 1px solid black;
+    border-radius: 2px;
+    
+}
+
+.main-title
+{
+    background-color: #ff5131;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5 5;
+    width: 800px;
+
+}
+
+.main-sub_title
+{
+    color: #ff5131;
+    border-bottom:1px solid #000051 ;
+    width: 250px;
+    margin-top: 5px;
+}
+
+
+b
+{
+    color: #000051;
+}
+
+.main-p
+{
+    margin-bottom: 2px;
+}
